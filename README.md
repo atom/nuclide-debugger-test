@@ -1,4 +1,10 @@
-#### Reproduction steps:
+#### Setup
+
+1. `npm install`
+
+1. `node-gyp rebuild --debug`
+
+#### Reproduction steps
 
 1. Set a breakpoint at line 13 of `binding.cc`
 
